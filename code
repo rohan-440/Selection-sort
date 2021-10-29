@@ -1,0 +1,17 @@
+a[j]){
+				min=j;
+			}
+		}
+	
+			int b;
+		b=a[min];
+		a[min]=a[i];
+		a[i]=b;
+			
+		}
+	
+	for(i=0;i<5;i++){
+		printf("\n  %d",a[i]);
+}
+	return 0;
+}
